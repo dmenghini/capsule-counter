@@ -225,15 +225,18 @@ __marimo__/
 # Ignore all images
 images/*
 
-# Keep placeholder files
+# Keep folder placeholders
 !images/.gitkeep
 !images/raw/
 !images/results/
 
-# Ignore everything inside image directories
+# Keep one example image
+!images/raw/example_image.jpeg
+
+# Ignore all other files in raw and results
 images/raw/*
 images/results/*
 
-# Keep placeholder files inside image directories
+# Keep placeholders
 !images/raw/.gitkeep
 !images/results/.gitkeep
