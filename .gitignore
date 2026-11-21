@@ -222,5 +222,18 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Ignore all image files
-images/
+# Ignore all images
+images/*
+
+# Keep placeholder files
+!images/.gitkeep
+!images/raw/
+!images/results/
+
+# Ignore everything inside image directories
+images/raw/*
+images/results/*
+
+# Keep placeholder files inside image directories
+!images/raw/.gitkeep
+!images/results/.gitkeep
